@@ -16,5 +16,5 @@
         security_group: sg-0c83d4f49209ee12d
         image_id: ami-09c813fb71547fc4f
         tags:
-          name: "{{ item }}"
+          Name: "{{ item }}"
       loop: "{{ instances }}"
