@@ -7,6 +7,7 @@
       - backend
       - frontend
     subnet_id: subnet-01e1379869e0fa78d
+    zone: deeps.sbs
   tasks:
     - name: create ec2 instances
       amazon.aws.ec2_instance:
